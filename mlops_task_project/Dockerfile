@@ -10,6 +10,8 @@ RUN yum install -y python36-devel
 
 RUN yum install -y epel-release
 
+RUN pip3 install --upgrade pip
+
 RUN yum groupinstall -y 'development tools'
 
 RUN yum install -y pillow
