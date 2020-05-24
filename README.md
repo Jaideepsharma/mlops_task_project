@@ -1,2 +1,2 @@
-# mlops_task_project
+# Mlops_Task_Project
 MLops integration task  
