@@ -14,9 +14,9 @@ RUN pip3 install --upgrade pip
 
 RUN yum groupinstall -y 'development tools'
 
-RUN yum install -y pillow
+RUN pip3 install pillow
 
-RUN yum install -y opencv-python
+RUN pip3 install opencv-python
 
 RUN pip3 install tensorflow
 
