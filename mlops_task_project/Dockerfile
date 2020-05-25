@@ -24,4 +24,4 @@ RUN pip3 install setuptools
 
 RUN pip3 install tensorflow==1.5
 
-CMD ["python3","mlops_task_project/cnn_code.py"]
+CMD ["python3","/mlops_task_project/cnn_code.py"]
