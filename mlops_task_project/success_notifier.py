@@ -8,7 +8,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 sender="hostadd123@gmail.com"
-passd="Host_address"
+passd="host_address"
 guest="47guestadd12345@gmail.com"
 subject="Notification of successful completion of model   "
 content = '''Hi, 
